@@ -3,9 +3,10 @@
  <script type="text/javascript" src="letter-processor.js" ></script>
 </head>
 <body>
-<p style="text-align: center;"><textarea id="oldText" name="oldText" rows="3" cols="46" placeholder="Add text separated by commas"></textarea></p>
-	<button class="subdued"  type="button" onclick="convertToNonesense()">Make nonesense</button>
-
-	<p id="newText"></p>
+<p style="text-align: center;"><textarea id="oldText" name="oldText" rows="3" cols="46" placeholder="Add text to turn into poetry"></textarea></p>
+	<button class="subdued"  type="button" onclick="convertToPhonetics()">Make words from letters</button>
+	<button class="subdued"  type="button" onclick="convertFromPhonetics()">Make letters from words</button>
+	<h2 id="workingTitle"></h2>
+	<p id="newText" style="font-size:1.8em;"></p>
 </body>
 </html>
